@@ -1,1 +1,18 @@
+name: "Shelly Locate"
+domain: "shelly_locate"
+version: "1.0"
+
+components:
+  - id: shelly_locate
+    class: ShellyLocate
+    includes:
+      - shelly_locate.h
+      - shelly_locate.cpp
+    requirements:
+      - esp32_ble_tracker
+      - esp32_ble_client
+
+actions:
+  - id: shelly_locate.activate_buzzer
+    class: ShellyLocateActivateAction
 
