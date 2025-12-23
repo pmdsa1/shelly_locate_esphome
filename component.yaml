@@ -1,0 +1,6 @@
+name: shelly_blu_buzzer
+version: 1.0.0
+dependencies:
+  - ble_client
+files:
+  - shelly_blu_buzzer.h
