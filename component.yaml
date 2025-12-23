@@ -3,4 +3,4 @@ version: 1.0.0
 dependencies:
   - ble_client
 files:
-  - shelly_blu_buzzer.h
+  - shelly_blu_buzzer/shelly_blu_buzzer.h
